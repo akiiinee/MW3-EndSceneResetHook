@@ -86,7 +86,7 @@ HRESULT NTAPI endScene(IDirect3DDevice9* pd) {
     ImGui_ImplWin32_NewFrame();
     ImGui::NewFrame();
     ImGui::Begin("MW3");
-    ImGui::Button("You nigglet!");
+    ImGui::Button("testing your mums balls");
     ImGui::End();
     ImGui::Render();
     ImGui_ImplDX9_RenderDrawData(ImGui::GetDrawData());
